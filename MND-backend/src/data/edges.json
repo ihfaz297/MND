@@ -1,0 +1,3074 @@
+[
+  {
+    "from": "TILAGOR",
+    "to": "SHIBGONJ",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 6,
+    "distance_meters": 2046,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "NAIORPUL",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 9,
+    "distance_meters": 2457,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "KUMARPARA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 4,
+    "distance_meters": 1074,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "SHAHI_EIDGAH",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 4,
+    "distance_meters": 1271,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "AMBARKHANA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 5,
+    "distance_meters": 1446,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "SUBIDBAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus3",
+      "bus4",
+      "bus5",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 9,
+    "distance_meters": 2087,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "PATHANTULA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus3",
+      "bus4",
+      "bus5",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 8,
+    "distance_meters": 2265,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "MODINA_MARKET",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus3",
+      "bus4",
+      "bus5",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 5,
+    "distance_meters": 1139,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "CAMPUS",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus3",
+      "bus4",
+      "bus5",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 13,
+    "distance_meters": 3598,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "CHOWHATTA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 5,
+    "distance_meters": 1311,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "AMBARKHANA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 6,
+    "distance_meters": 1137,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "CAMPUS",
+    "to": "SUBIDBAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 18,
+    "distance_meters": 5222,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "AMBARKHANA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 9,
+    "distance_meters": 2091,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "SHAHI_EIDGAH",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 5,
+    "distance_meters": 1446,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "KUMARPARA",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 4,
+    "distance_meters": 1229,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "NAIORPUL",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2",
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 4,
+    "distance_meters": 1074,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "SHIBGONJ",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 9,
+    "distance_meters": 2307,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "TILAGOR",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 6,
+    "distance_meters": 2046,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "SHAHI_EIDGAH",
+    "mode": "bus",
+    "route_ids": [
+      "bus1",
+      "bus2"
+    ],
+    "time_min": 9,
+    "distance_meters": 2818,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "CAMPUS",
+    "to": "AMBARKHANA",
+    "mode": "bus",
+    "route_ids": [
+      "bus2",
+      "bus5",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 21,
+    "distance_meters": 5643,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "JAIL_RD",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4",
+      "bus6"
+    ],
+    "time_min": 4,
+    "distance_meters": 975,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "NAYASARAK",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4",
+      "bus6"
+    ],
+    "time_min": 2,
+    "distance_meters": 485,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "CHOWHATTA",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4",
+      "bus6"
+    ],
+    "time_min": 4,
+    "distance_meters": 902,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "RIKABI_BAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 4,
+    "distance_meters": 933,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "SUBIDBAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4",
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 6,
+    "distance_meters": 1499,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "CAMPUS",
+    "to": "MODINA_MARKET",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 15,
+    "distance_meters": 3058,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "PATHANTULA",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 6,
+    "distance_meters": 1136,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "SUBIDBAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 9,
+    "distance_meters": 2315,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "RIKABI_BAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 5,
+    "distance_meters": 1471,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "CHOWHATTA",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 4,
+    "distance_meters": 1005,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "KUMARPARA",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 5,
+    "distance_meters": 1311,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "CHOWHATTA",
+    "mode": "bus",
+    "route_ids": [
+      "bus3",
+      "bus4"
+    ],
+    "time_min": 5,
+    "distance_meters": 1237,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "AMBARKHANA",
+    "mode": "bus",
+    "route_ids": [
+      "bus5"
+    ],
+    "time_min": 9,
+    "distance_meters": 2520,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "LAKKATURA",
+    "mode": "bus",
+    "route_ids": [
+      "bus5"
+    ],
+    "time_min": 8,
+    "distance_meters": 2520,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "CHOWHATTA",
+    "mode": "bus",
+    "route_ids": [
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 5,
+    "distance_meters": 1094,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "MODINA_MARKET",
+    "mode": "bus",
+    "route_ids": [
+      "bus6",
+      "bus7"
+    ],
+    "time_min": 13,
+    "distance_meters": 3359,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "RIKABI_BAZAR",
+    "mode": "bus",
+    "route_ids": [
+      "bus7"
+    ],
+    "time_min": 6,
+    "distance_meters": 1530,
+    "cost": 0,
+    "one_way": false,
+    "source": "distance_matrix"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2000,
+    "cost": 30,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1500,
+    "cost": 25,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 1200,
+    "cost": 20,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2500,
+    "cost": 40,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1800,
+    "cost": 35,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3500,
+    "cost": 50,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "CAMPUS",
+    "to": "MODINA_MARKET",
+    "mode": "walk",
+    "time_min": 5,
+    "distance_meters": 400,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "PATHANTULA",
+    "mode": "walk",
+    "time_min": 4,
+    "distance_meters": 300,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "SUBIDBAZAR",
+    "mode": "walk",
+    "time_min": 6,
+    "distance_meters": 500,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "AMBARKHANA",
+    "mode": "walk",
+    "time_min": 8,
+    "distance_meters": 650,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "SHAHI_EIDGAH",
+    "mode": "walk",
+    "time_min": 7,
+    "distance_meters": 550,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "RIKABI_BAZAR",
+    "mode": "walk",
+    "time_min": 6,
+    "distance_meters": 450,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "SUBIDBAZAR",
+    "mode": "walk",
+    "time_min": 7,
+    "distance_meters": 600,
+    "cost": 0,
+    "one_way": false,
+    "source": "estimated"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3751,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3968,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4544,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3612,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 4347,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "TILAGOR",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3909,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1338,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1536,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2686,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4609,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3262,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3401,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 3065,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4095,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4535,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHIBGONJ",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3698,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3069,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2612,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3793,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1728,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1066,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2560,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 2739,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2347,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3559,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAIORPUL",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 1273,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 3793,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1338,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3377,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 18,
+    "distance_meters": 4883,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1449,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1114,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2143,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4435,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3593,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2584,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3142,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "KUMARPARA",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1892,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2818,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1536,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1927,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 17,
+    "distance_meters": 4415,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 18,
+    "distance_meters": 4678,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2023,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2161,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1825,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2855,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3967,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4305,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3296,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3854,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHAHI_EIDGAH",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2459,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3968,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2686,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2765,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 2067,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3133,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3396,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1740,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1404,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1712,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3162,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2153,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2711,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "AMBARKHANA",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1462,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4612,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3773,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3356,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3372,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2528,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "CAMPUS",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3884,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 2146,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3282,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2947,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4450,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3012,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1912,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1717,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SUBIDBAZAR",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2514,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 17,
+    "distance_meters": 4987,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4570,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4017,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 2736,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "CAMPUS",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3276,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3360,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4496,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4161,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2685,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3836,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3126,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2542,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "PATHANTULA",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3728,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 19,
+    "distance_meters": 4666,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3385,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 2964,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4009,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 18,
+    "distance_meters": 4810,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3334,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 18,
+    "distance_meters": 4785,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3775,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3698,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MODINA_MARKET",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4377,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CAMPUS",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3282,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4544,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3262,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1728,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2023,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2167,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3764,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4027,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 1237,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "NAYASARAK",
+    "mode": "walk",
+    "time_min": 11,
+    "distance_meters": 902,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 902,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3496,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2384,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1374,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1932,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "ZINDABAZAR",
+    "mode": "walk",
+    "time_min": 8,
+    "distance_meters": 683,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "CHOWHATTA",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 3,
+    "distance_meters": 683,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3612,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3401,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "NAIORPUL",
+    "mode": "walk",
+    "time_min": 9,
+    "distance_meters": 731,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 731,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1449,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2161,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1740,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3303,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 18,
+    "distance_meters": 4900,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2070,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4632,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 2717,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 1708,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3068,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "ZINDABAZAR",
+    "mode": "walk",
+    "time_min": 8,
+    "distance_meters": 692,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "JAIL_RD",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 3,
+    "distance_meters": 692,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 4347,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 3065,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1066,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1114,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1825,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1404,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2967,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4564,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 18,
+    "distance_meters": 4827,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "JAIL_RD",
+    "mode": "walk",
+    "time_min": 6,
+    "distance_meters": 485,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 2,
+    "distance_meters": 485,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1734,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4296,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3184,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 2175,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2733,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "ZINDABAZAR",
+    "mode": "walk",
+    "time_min": 9,
+    "distance_meters": 782,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "NAYASARAK",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 3,
+    "distance_meters": 782,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4166,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2631,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2214,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2926,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1770,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3097,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2141,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1805,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4129,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1780,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "LAMABAZAR",
+    "mode": "walk",
+    "time_min": 9,
+    "distance_meters": 771,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 771,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1040,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "RIKABI_BAZAR",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1373,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 4588,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3967,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4453,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3460,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 17,
+    "distance_meters": 4596,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4261,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4078,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4519,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAKKATURA",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 3828,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 2765,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3616,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4327,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3172,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2999,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4495,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 17,
+    "distance_meters": 4534,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2406,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 2450,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3206,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1069,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1617,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "SHEIKHGHAT",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2073,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4558,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 3023,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2606,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3318,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2162,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1892,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3488,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3751,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 1397,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 1708,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2197,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "RIKABI_BAZAR",
+    "mode": "walk",
+    "time_min": 6,
+    "distance_meters": 520,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 3,
+    "distance_meters": 520,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4521,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 4,
+    "distance_meters": 1069,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1436,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "LAMABAZAR",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1064,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3554,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3137,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3849,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 2693,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1704,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3200,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 13,
+    "distance_meters": 3240,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "CAMPUS",
+    "mode": "local",
+    "time_min": 14,
+    "distance_meters": 4117,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1927,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 3063,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2728,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 1252,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1617,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1436,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "MEDICAL",
+    "to": "ZINDABAZAR",
+    "mode": "local",
+    "time_min": 9,
+    "distance_meters": 2295,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "TILAGOR",
+    "mode": "local",
+    "time_min": 17,
+    "distance_meters": 4218,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "SHIBGONJ",
+    "mode": "local",
+    "time_min": 15,
+    "distance_meters": 3456,
+    "cost": 40,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "NAIORPUL",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1149,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "KUMARPARA",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 2223,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "SHAHI_EIDGAH",
+    "mode": "local",
+    "time_min": 12,
+    "distance_meters": 2779,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "AMBARKHANA",
+    "mode": "local",
+    "time_min": 10,
+    "distance_meters": 1793,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "SUBIDBAZAR",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2823,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "PATHANTULA",
+    "mode": "local",
+    "time_min": 17,
+    "distance_meters": 4420,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "MODINA_MARKET",
+    "mode": "local",
+    "time_min": 19,
+    "distance_meters": 4683,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "CHOWHATTA",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 1028,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "JAIL_RD",
+    "mode": "walk",
+    "time_min": 10,
+    "distance_meters": 835,
+    "cost": 0,
+    "one_way": false,
+    "source": "densified_walk"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "JAIL_RD",
+    "mode": "local",
+    "time_min": 5,
+    "distance_meters": 835,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "NAYASARAK",
+    "mode": "local",
+    "time_min": 6,
+    "distance_meters": 1102,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "RIKABI_BAZAR",
+    "mode": "local",
+    "time_min": 7,
+    "distance_meters": 1590,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "LAKKATURA",
+    "mode": "local",
+    "time_min": 16,
+    "distance_meters": 4152,
+    "cost": 50,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "SHEIKHGHAT",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2352,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "LAMABAZAR",
+    "mode": "local",
+    "time_min": 8,
+    "distance_meters": 1368,
+    "cost": 20,
+    "one_way": false,
+    "source": "densified_local"
+  },
+  {
+    "from": "ZINDABAZAR",
+    "to": "MEDICAL",
+    "mode": "local",
+    "time_min": 11,
+    "distance_meters": 2589,
+    "cost": 30,
+    "one_way": false,
+    "source": "densified_local"
+  }
+]

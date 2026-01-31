@@ -1,0 +1,18 @@
+{
+  "users": [],
+  "magicLinks": [
+    {
+      "token": "ce74fc60023609744a5cc7300f20bb8765df60c471dda47093ed00ac3e99788e",
+      "email": "adib000297@gmail.com",
+      "expiresAt": 1767795993139,
+      "used": false
+    },
+    {
+      "token": "cbb63f1cca6021e75dc3305a857221cd89dea33f0ac518b6225e6f74c17358a5",
+      "email": "2022331008@student.sust.edu",
+      "expiresAt": 1767796019888,
+      "used": false
+    }
+  ],
+  "authTokens": []
+}

@@ -1,0 +1,1692 @@
+{
+  "TILAGOR|SHIBGONJ|driving": {
+    "distanceMeters": 2046,
+    "durationSeconds": 356,
+    "timestamp": "2025-12-08T08:36:52.667Z"
+  },
+  "SHIBGONJ|NAIORPUL|driving": {
+    "distanceMeters": 2457,
+    "durationSeconds": 565,
+    "timestamp": "2025-12-08T08:36:53.185Z"
+  },
+  "NAIORPUL|KUMARPARA|driving": {
+    "distanceMeters": 1074,
+    "durationSeconds": 234,
+    "timestamp": "2025-12-08T08:36:53.684Z"
+  },
+  "KUMARPARA|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 1271,
+    "durationSeconds": 260,
+    "timestamp": "2025-12-08T08:36:54.205Z"
+  },
+  "SHAHI_EIDGAH|AMBARKHANA|driving": {
+    "distanceMeters": 1446,
+    "durationSeconds": 292,
+    "timestamp": "2025-12-08T08:36:54.669Z"
+  },
+  "AMBARKHANA|SUBIDBAZAR|driving": {
+    "distanceMeters": 2087,
+    "durationSeconds": 515,
+    "timestamp": "2025-12-08T08:36:55.167Z"
+  },
+  "SUBIDBAZAR|PATHANTULA|driving": {
+    "distanceMeters": 2265,
+    "durationSeconds": 502,
+    "timestamp": "2025-12-08T08:36:55.655Z"
+  },
+  "PATHANTULA|MODINA_MARKET|driving": {
+    "distanceMeters": 1139,
+    "durationSeconds": 319,
+    "timestamp": "2025-12-08T08:36:56.167Z"
+  },
+  "MODINA_MARKET|CAMPUS|driving": {
+    "distanceMeters": 3598,
+    "durationSeconds": 800,
+    "timestamp": "2025-12-08T08:36:56.701Z"
+  },
+  "KUMARPARA|CHOWHATTA|driving": {
+    "distanceMeters": 1311,
+    "durationSeconds": 318,
+    "timestamp": "2025-12-08T08:36:57.203Z"
+  },
+  "CHOWHATTA|AMBARKHANA|driving": {
+    "distanceMeters": 1137,
+    "durationSeconds": 363,
+    "timestamp": "2025-12-08T08:36:57.608Z"
+  },
+  "CAMPUS|SUBIDBAZAR|driving": {
+    "distanceMeters": 5222,
+    "durationSeconds": 1075,
+    "timestamp": "2025-12-08T08:36:58.015Z"
+  },
+  "SUBIDBAZAR|AMBARKHANA|driving": {
+    "distanceMeters": 2091,
+    "durationSeconds": 531,
+    "timestamp": "2025-12-08T08:36:58.404Z"
+  },
+  "AMBARKHANA|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 1446,
+    "durationSeconds": 310,
+    "timestamp": "2025-12-08T08:36:58.800Z"
+  },
+  "SHAHI_EIDGAH|KUMARPARA|driving": {
+    "distanceMeters": 1229,
+    "durationSeconds": 245,
+    "timestamp": "2025-12-08T08:36:59.202Z"
+  },
+  "KUMARPARA|NAIORPUL|driving": {
+    "distanceMeters": 1074,
+    "durationSeconds": 219,
+    "timestamp": "2025-12-08T08:36:59.617Z"
+  },
+  "NAIORPUL|SHIBGONJ|driving": {
+    "distanceMeters": 2307,
+    "durationSeconds": 566,
+    "timestamp": "2025-12-08T08:37:00.021Z"
+  },
+  "SHIBGONJ|TILAGOR|driving": {
+    "distanceMeters": 2046,
+    "durationSeconds": 335,
+    "timestamp": "2025-12-08T08:37:00.417Z"
+  },
+  "TILAGOR|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 2818,
+    "durationSeconds": 516,
+    "timestamp": "2025-12-08T08:37:00.825Z"
+  },
+  "CAMPUS|AMBARKHANA|driving": {
+    "distanceMeters": 5643,
+    "durationSeconds": 1251,
+    "timestamp": "2025-12-08T08:37:01.227Z"
+  },
+  "NAIORPUL|JAIL_RD|driving": {
+    "distanceMeters": 975,
+    "durationSeconds": 242,
+    "timestamp": "2025-12-08T08:37:01.735Z"
+  },
+  "JAIL_RD|NAYASARAK|driving": {
+    "distanceMeters": 485,
+    "durationSeconds": 119,
+    "timestamp": "2025-12-08T08:37:02.248Z"
+  },
+  "NAYASARAK|CHOWHATTA|driving": {
+    "distanceMeters": 902,
+    "durationSeconds": 236,
+    "timestamp": "2025-12-08T08:37:02.642Z"
+  },
+  "CHOWHATTA|RIKABI_BAZAR|driving": {
+    "distanceMeters": 933,
+    "durationSeconds": 216,
+    "timestamp": "2025-12-08T08:37:03.151Z"
+  },
+  "RIKABI_BAZAR|SUBIDBAZAR|driving": {
+    "distanceMeters": 1499,
+    "durationSeconds": 351,
+    "timestamp": "2025-12-08T08:37:03.543Z"
+  },
+  "CAMPUS|MODINA_MARKET|driving": {
+    "distanceMeters": 3058,
+    "durationSeconds": 889,
+    "timestamp": "2025-12-08T08:37:03.955Z"
+  },
+  "MODINA_MARKET|PATHANTULA|driving": {
+    "distanceMeters": 1136,
+    "durationSeconds": 338,
+    "timestamp": "2025-12-08T08:37:04.354Z"
+  },
+  "PATHANTULA|SUBIDBAZAR|driving": {
+    "distanceMeters": 2315,
+    "durationSeconds": 514,
+    "timestamp": "2025-12-08T08:37:04.760Z"
+  },
+  "SUBIDBAZAR|RIKABI_BAZAR|driving": {
+    "distanceMeters": 1471,
+    "durationSeconds": 288,
+    "timestamp": "2025-12-08T08:37:05.161Z"
+  },
+  "RIKABI_BAZAR|CHOWHATTA|driving": {
+    "distanceMeters": 1005,
+    "durationSeconds": 250,
+    "timestamp": "2025-12-08T08:37:05.565Z"
+  },
+  "CHOWHATTA|KUMARPARA|driving": {
+    "distanceMeters": 1311,
+    "durationSeconds": 318,
+    "timestamp": "2025-12-08T08:37:05.955Z"
+  },
+  "JAIL_RD|CHOWHATTA|driving": {
+    "distanceMeters": 1237,
+    "durationSeconds": 316,
+    "timestamp": "2025-12-08T08:37:06.346Z"
+  },
+  "LAKKATURA|AMBARKHANA|driving": {
+    "distanceMeters": 2520,
+    "durationSeconds": 528,
+    "timestamp": "2025-12-08T08:37:06.829Z"
+  },
+  "AMBARKHANA|LAKKATURA|driving": {
+    "distanceMeters": 2520,
+    "durationSeconds": 487,
+    "timestamp": "2025-12-08T08:37:07.238Z"
+  },
+  "AMBARKHANA|CHOWHATTA|driving": {
+    "distanceMeters": 1094,
+    "durationSeconds": 321,
+    "timestamp": "2025-12-08T08:37:07.636Z"
+  },
+  "RIKABI_BAZAR|MODINA_MARKET|driving": {
+    "distanceMeters": 3359,
+    "durationSeconds": 799,
+    "timestamp": "2025-12-08T08:37:08.026Z"
+  },
+  "SHEIKHGHAT|RIKABI_BAZAR|driving": {
+    "distanceMeters": 1530,
+    "durationSeconds": 352,
+    "timestamp": "2025-12-08T08:37:08.474Z"
+  },
+  "TILAGOR|KUMARPARA|driving": {
+    "distanceMeters": 3751,
+    "durationSeconds": 639,
+    "timestamp": "2025-12-28T21:10:33.841Z"
+  },
+  "TILAGOR|AMBARKHANA|driving": {
+    "distanceMeters": 3968,
+    "durationSeconds": 686,
+    "timestamp": "2025-12-28T21:10:34.346Z"
+  },
+  "TILAGOR|SUBIDBAZAR|driving": {
+    "distanceMeters": 5891,
+    "durationSeconds": 1155,
+    "timestamp": "2025-12-28T21:10:34.866Z"
+  },
+  "TILAGOR|PATHANTULA|driving": {
+    "distanceMeters": 6936,
+    "durationSeconds": 1408,
+    "timestamp": "2025-12-28T21:10:35.327Z"
+  },
+  "TILAGOR|MODINA_MARKET|driving": {
+    "distanceMeters": 7199,
+    "durationSeconds": 1497,
+    "timestamp": "2025-12-28T21:10:35.865Z"
+  },
+  "TILAGOR|CAMPUS|driving": {
+    "distanceMeters": 8920,
+    "durationSeconds": 1731,
+    "timestamp": "2025-12-28T21:10:36.343Z"
+  },
+  "TILAGOR|CHOWHATTA|driving": {
+    "distanceMeters": 4544,
+    "durationSeconds": 848,
+    "timestamp": "2025-12-28T21:10:36.850Z"
+  },
+  "TILAGOR|JAIL_RD|driving": {
+    "distanceMeters": 3612,
+    "durationSeconds": 818,
+    "timestamp": "2025-12-28T21:10:37.301Z"
+  },
+  "TILAGOR|NAYASARAK|driving": {
+    "distanceMeters": 4347,
+    "durationSeconds": 782,
+    "timestamp": "2025-12-28T21:10:37.774Z"
+  },
+  "TILAGOR|RIKABI_BAZAR|driving": {
+    "distanceMeters": 5376,
+    "durationSeconds": 1000,
+    "timestamp": "2025-12-28T21:10:38.261Z"
+  },
+  "TILAGOR|LAKKATURA|driving": {
+    "distanceMeters": 6488,
+    "durationSeconds": 1173,
+    "timestamp": "2025-12-28T21:10:38.729Z"
+  },
+  "TILAGOR|SHEIKHGHAT|driving": {
+    "distanceMeters": 6827,
+    "durationSeconds": 1333,
+    "timestamp": "2025-12-28T21:10:39.155Z"
+  },
+  "TILAGOR|LAMABAZAR|driving": {
+    "distanceMeters": 5817,
+    "durationSeconds": 1121,
+    "timestamp": "2025-12-28T21:10:39.657Z"
+  },
+  "TILAGOR|MEDICAL|driving": {
+    "distanceMeters": 6375,
+    "durationSeconds": 1249,
+    "timestamp": "2025-12-28T21:10:40.163Z"
+  },
+  "TILAGOR|ZINDABAZAR|driving": {
+    "distanceMeters": 3909,
+    "durationSeconds": 896,
+    "timestamp": "2025-12-28T21:10:40.605Z"
+  },
+  "SHIBGONJ|KUMARPARA|driving": {
+    "distanceMeters": 1338,
+    "durationSeconds": 363,
+    "timestamp": "2025-12-28T21:10:41.077Z"
+  },
+  "SHIBGONJ|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 1536,
+    "durationSeconds": 331,
+    "timestamp": "2025-12-28T21:10:41.596Z"
+  },
+  "SHIBGONJ|AMBARKHANA|driving": {
+    "distanceMeters": 2686,
+    "durationSeconds": 501,
+    "timestamp": "2025-12-28T21:10:42.191Z"
+  },
+  "SHIBGONJ|SUBIDBAZAR|driving": {
+    "distanceMeters": 4609,
+    "durationSeconds": 970,
+    "timestamp": "2025-12-28T21:10:42.596Z"
+  },
+  "SHIBGONJ|PATHANTULA|driving": {
+    "distanceMeters": 5654,
+    "durationSeconds": 1222,
+    "timestamp": "2025-12-28T21:10:42.994Z"
+  },
+  "SHIBGONJ|MODINA_MARKET|driving": {
+    "distanceMeters": 5917,
+    "durationSeconds": 1312,
+    "timestamp": "2025-12-28T21:10:43.382Z"
+  },
+  "SHIBGONJ|CAMPUS|driving": {
+    "distanceMeters": 7638,
+    "durationSeconds": 1545,
+    "timestamp": "2025-12-28T21:10:43.777Z"
+  },
+  "SHIBGONJ|CHOWHATTA|driving": {
+    "distanceMeters": 3262,
+    "durationSeconds": 662,
+    "timestamp": "2025-12-28T21:10:44.175Z"
+  },
+  "SHIBGONJ|JAIL_RD|driving": {
+    "distanceMeters": 3401,
+    "durationSeconds": 677,
+    "timestamp": "2025-12-28T21:10:44.573Z"
+  },
+  "SHIBGONJ|NAYASARAK|driving": {
+    "distanceMeters": 3065,
+    "durationSeconds": 597,
+    "timestamp": "2025-12-28T21:10:44.980Z"
+  },
+  "SHIBGONJ|RIKABI_BAZAR|driving": {
+    "distanceMeters": 4095,
+    "durationSeconds": 814,
+    "timestamp": "2025-12-28T21:10:45.378Z"
+  },
+  "SHIBGONJ|LAKKATURA|driving": {
+    "distanceMeters": 5206,
+    "durationSeconds": 988,
+    "timestamp": "2025-12-28T21:10:45.771Z"
+  },
+  "SHIBGONJ|SHEIKHGHAT|driving": {
+    "distanceMeters": 5545,
+    "durationSeconds": 1147,
+    "timestamp": "2025-12-28T21:10:46.176Z"
+  },
+  "SHIBGONJ|LAMABAZAR|driving": {
+    "distanceMeters": 4535,
+    "durationSeconds": 936,
+    "timestamp": "2025-12-28T21:10:46.587Z"
+  },
+  "SHIBGONJ|MEDICAL|driving": {
+    "distanceMeters": 5094,
+    "durationSeconds": 1063,
+    "timestamp": "2025-12-28T21:10:46.990Z"
+  },
+  "SHIBGONJ|ZINDABAZAR|driving": {
+    "distanceMeters": 3698,
+    "durationSeconds": 758,
+    "timestamp": "2025-12-28T21:10:47.398Z"
+  },
+  "NAIORPUL|TILAGOR|driving": {
+    "distanceMeters": 3069,
+    "durationSeconds": 678,
+    "timestamp": "2025-12-28T21:10:47.826Z"
+  },
+  "NAIORPUL|AMBARKHANA|driving": {
+    "distanceMeters": 2612,
+    "durationSeconds": 464,
+    "timestamp": "2025-12-28T21:10:48.230Z"
+  },
+  "NAIORPUL|SUBIDBAZAR|driving": {
+    "distanceMeters": 3793,
+    "durationSeconds": 792,
+    "timestamp": "2025-12-28T21:10:48.618Z"
+  },
+  "NAIORPUL|PATHANTULA|driving": {
+    "distanceMeters": 5390,
+    "durationSeconds": 1151,
+    "timestamp": "2025-12-28T21:10:49.014Z"
+  },
+  "NAIORPUL|MODINA_MARKET|driving": {
+    "distanceMeters": 5653,
+    "durationSeconds": 1240,
+    "timestamp": "2025-12-28T21:10:49.421Z"
+  },
+  "NAIORPUL|CAMPUS|driving": {
+    "distanceMeters": 7373,
+    "durationSeconds": 1474,
+    "timestamp": "2025-12-28T21:10:49.834Z"
+  },
+  "NAIORPUL|CHOWHATTA|driving": {
+    "distanceMeters": 1728,
+    "durationSeconds": 401,
+    "timestamp": "2025-12-28T21:10:50.224Z"
+  },
+  "NAIORPUL|NAYASARAK|driving": {
+    "distanceMeters": 1066,
+    "durationSeconds": 257,
+    "timestamp": "2025-12-28T21:10:50.613Z"
+  },
+  "NAIORPUL|RIKABI_BAZAR|driving": {
+    "distanceMeters": 2560,
+    "durationSeconds": 553,
+    "timestamp": "2025-12-28T21:10:51.004Z"
+  },
+  "NAIORPUL|LAKKATURA|driving": {
+    "distanceMeters": 5133,
+    "durationSeconds": 951,
+    "timestamp": "2025-12-28T21:10:51.398Z"
+  },
+  "NAIORPUL|SHEIKHGHAT|driving": {
+    "distanceMeters": 2739,
+    "durationSeconds": 758,
+    "timestamp": "2025-12-28T21:10:51.790Z"
+  },
+  "NAIORPUL|LAMABAZAR|driving": {
+    "distanceMeters": 2347,
+    "durationSeconds": 644,
+    "timestamp": "2025-12-28T21:10:52.191Z"
+  },
+  "NAIORPUL|MEDICAL|driving": {
+    "distanceMeters": 3559,
+    "durationSeconds": 802,
+    "timestamp": "2025-12-28T21:10:52.580Z"
+  },
+  "NAIORPUL|ZINDABAZAR|driving": {
+    "distanceMeters": 1273,
+    "durationSeconds": 320,
+    "timestamp": "2025-12-28T21:10:52.971Z"
+  },
+  "KUMARPARA|TILAGOR|driving": {
+    "distanceMeters": 3793,
+    "durationSeconds": 612,
+    "timestamp": "2025-12-28T21:10:53.360Z"
+  },
+  "KUMARPARA|SHIBGONJ|driving": {
+    "distanceMeters": 1338,
+    "durationSeconds": 345,
+    "timestamp": "2025-12-28T21:10:53.748Z"
+  },
+  "KUMARPARA|SUBIDBAZAR|driving": {
+    "distanceMeters": 3377,
+    "durationSeconds": 709,
+    "timestamp": "2025-12-28T21:10:54.155Z"
+  },
+  "KUMARPARA|PATHANTULA|driving": {
+    "distanceMeters": 4883,
+    "durationSeconds": 1052,
+    "timestamp": "2025-12-28T21:10:54.539Z"
+  },
+  "KUMARPARA|MODINA_MARKET|driving": {
+    "distanceMeters": 5146,
+    "durationSeconds": 1141,
+    "timestamp": "2025-12-28T21:10:54.941Z"
+  },
+  "KUMARPARA|CAMPUS|driving": {
+    "distanceMeters": 6867,
+    "durationSeconds": 1375,
+    "timestamp": "2025-12-28T21:10:55.335Z"
+  },
+  "KUMARPARA|JAIL_RD|driving": {
+    "distanceMeters": 1449,
+    "durationSeconds": 338,
+    "timestamp": "2025-12-28T21:10:55.735Z"
+  },
+  "KUMARPARA|NAYASARAK|driving": {
+    "distanceMeters": 1114,
+    "durationSeconds": 258,
+    "timestamp": "2025-12-28T21:10:56.125Z"
+  },
+  "KUMARPARA|RIKABI_BAZAR|driving": {
+    "distanceMeters": 2143,
+    "durationSeconds": 470,
+    "timestamp": "2025-12-28T21:10:56.523Z"
+  },
+  "KUMARPARA|LAKKATURA|driving": {
+    "distanceMeters": 4435,
+    "durationSeconds": 817,
+    "timestamp": "2025-12-28T21:10:56.921Z"
+  },
+  "KUMARPARA|SHEIKHGHAT|driving": {
+    "distanceMeters": 3593,
+    "durationSeconds": 803,
+    "timestamp": "2025-12-28T21:10:57.310Z"
+  },
+  "KUMARPARA|LAMABAZAR|driving": {
+    "distanceMeters": 2584,
+    "durationSeconds": 592,
+    "timestamp": "2025-12-28T21:10:57.693Z"
+  },
+  "KUMARPARA|MEDICAL|driving": {
+    "distanceMeters": 3142,
+    "durationSeconds": 719,
+    "timestamp": "2025-12-28T21:10:58.103Z"
+  },
+  "KUMARPARA|ZINDABAZAR|driving": {
+    "distanceMeters": 1892,
+    "durationSeconds": 437,
+    "timestamp": "2025-12-28T21:10:58.499Z"
+  },
+  "SHAHI_EIDGAH|TILAGOR|driving": {
+    "distanceMeters": 2818,
+    "durationSeconds": 522,
+    "timestamp": "2025-12-28T21:10:58.885Z"
+  },
+  "SHAHI_EIDGAH|SHIBGONJ|driving": {
+    "distanceMeters": 1536,
+    "durationSeconds": 359,
+    "timestamp": "2025-12-28T21:10:59.284Z"
+  },
+  "SHAHI_EIDGAH|NAIORPUL|driving": {
+    "distanceMeters": 1927,
+    "durationSeconds": 365,
+    "timestamp": "2025-12-28T21:10:59.690Z"
+  },
+  "SHAHI_EIDGAH|PATHANTULA|driving": {
+    "distanceMeters": 4415,
+    "durationSeconds": 1014,
+    "timestamp": "2025-12-28T21:11:00.076Z"
+  },
+  "SHAHI_EIDGAH|MODINA_MARKET|driving": {
+    "distanceMeters": 4678,
+    "durationSeconds": 1103,
+    "timestamp": "2025-12-28T21:11:00.474Z"
+  },
+  "SHAHI_EIDGAH|CAMPUS|driving": {
+    "distanceMeters": 6398,
+    "durationSeconds": 1337,
+    "timestamp": "2025-12-28T21:11:00.862Z"
+  },
+  "SHAHI_EIDGAH|CHOWHATTA|driving": {
+    "distanceMeters": 2023,
+    "durationSeconds": 454,
+    "timestamp": "2025-12-28T21:11:01.250Z"
+  },
+  "SHAHI_EIDGAH|JAIL_RD|driving": {
+    "distanceMeters": 2161,
+    "durationSeconds": 468,
+    "timestamp": "2025-12-28T21:11:01.650Z"
+  },
+  "SHAHI_EIDGAH|NAYASARAK|driving": {
+    "distanceMeters": 1825,
+    "durationSeconds": 389,
+    "timestamp": "2025-12-28T21:11:02.053Z"
+  },
+  "SHAHI_EIDGAH|RIKABI_BAZAR|driving": {
+    "distanceMeters": 2855,
+    "durationSeconds": 606,
+    "timestamp": "2025-12-28T21:11:02.460Z"
+  },
+  "SHAHI_EIDGAH|LAKKATURA|driving": {
+    "distanceMeters": 3967,
+    "durationSeconds": 779,
+    "timestamp": "2025-12-28T21:11:03.014Z"
+  },
+  "SHAHI_EIDGAH|SHEIKHGHAT|driving": {
+    "distanceMeters": 4305,
+    "durationSeconds": 939,
+    "timestamp": "2025-12-28T21:11:03.407Z"
+  },
+  "SHAHI_EIDGAH|LAMABAZAR|driving": {
+    "distanceMeters": 3296,
+    "durationSeconds": 728,
+    "timestamp": "2025-12-28T21:11:03.802Z"
+  },
+  "SHAHI_EIDGAH|MEDICAL|driving": {
+    "distanceMeters": 3854,
+    "durationSeconds": 855,
+    "timestamp": "2025-12-28T21:11:04.192Z"
+  },
+  "SHAHI_EIDGAH|ZINDABAZAR|driving": {
+    "distanceMeters": 2459,
+    "durationSeconds": 550,
+    "timestamp": "2025-12-28T21:11:04.580Z"
+  },
+  "AMBARKHANA|TILAGOR|driving": {
+    "distanceMeters": 3968,
+    "durationSeconds": 662,
+    "timestamp": "2025-12-28T21:11:04.975Z"
+  },
+  "AMBARKHANA|SHIBGONJ|driving": {
+    "distanceMeters": 2686,
+    "durationSeconds": 499,
+    "timestamp": "2025-12-28T21:11:05.381Z"
+  },
+  "AMBARKHANA|NAIORPUL|driving": {
+    "distanceMeters": 2765,
+    "durationSeconds": 502,
+    "timestamp": "2025-12-28T21:11:05.839Z"
+  },
+  "AMBARKHANA|KUMARPARA|driving": {
+    "distanceMeters": 2067,
+    "durationSeconds": 382,
+    "timestamp": "2025-12-28T21:11:06.241Z"
+  },
+  "AMBARKHANA|PATHANTULA|driving": {
+    "distanceMeters": 3133,
+    "durationSeconds": 768,
+    "timestamp": "2025-12-28T21:11:06.638Z"
+  },
+  "AMBARKHANA|MODINA_MARKET|driving": {
+    "distanceMeters": 3396,
+    "durationSeconds": 857,
+    "timestamp": "2025-12-28T21:11:07.029Z"
+  },
+  "AMBARKHANA|CAMPUS|driving": {
+    "distanceMeters": 5116,
+    "durationSeconds": 1091,
+    "timestamp": "2025-12-28T21:11:07.434Z"
+  },
+  "AMBARKHANA|JAIL_RD|driving": {
+    "distanceMeters": 1740,
+    "durationSeconds": 473,
+    "timestamp": "2025-12-28T21:11:07.817Z"
+  },
+  "AMBARKHANA|NAYASARAK|driving": {
+    "distanceMeters": 1404,
+    "durationSeconds": 394,
+    "timestamp": "2025-12-28T21:11:08.214Z"
+  },
+  "AMBARKHANA|RIKABI_BAZAR|driving": {
+    "distanceMeters": 1712,
+    "durationSeconds": 436,
+    "timestamp": "2025-12-28T21:11:08.608Z"
+  },
+  "AMBARKHANA|SHEIKHGHAT|driving": {
+    "distanceMeters": 3162,
+    "durationSeconds": 769,
+    "timestamp": "2025-12-28T21:11:09.019Z"
+  },
+  "AMBARKHANA|LAMABAZAR|driving": {
+    "distanceMeters": 2153,
+    "durationSeconds": 558,
+    "timestamp": "2025-12-28T21:11:09.420Z"
+  },
+  "AMBARKHANA|MEDICAL|driving": {
+    "distanceMeters": 2711,
+    "durationSeconds": 686,
+    "timestamp": "2025-12-28T21:11:09.811Z"
+  },
+  "AMBARKHANA|ZINDABAZAR|driving": {
+    "distanceMeters": 1462,
+    "durationSeconds": 411,
+    "timestamp": "2025-12-28T21:11:10.198Z"
+  },
+  "SUBIDBAZAR|TILAGOR|driving": {
+    "distanceMeters": 5894,
+    "durationSeconds": 1149,
+    "timestamp": "2025-12-28T21:11:10.593Z"
+  },
+  "SUBIDBAZAR|SHIBGONJ|driving": {
+    "distanceMeters": 4612,
+    "durationSeconds": 985,
+    "timestamp": "2025-12-28T21:11:10.981Z"
+  },
+  "SUBIDBAZAR|NAIORPUL|driving": {
+    "distanceMeters": 3773,
+    "durationSeconds": 755,
+    "timestamp": "2025-12-28T21:11:11.373Z"
+  },
+  "SUBIDBAZAR|KUMARPARA|driving": {
+    "distanceMeters": 3356,
+    "durationSeconds": 687,
+    "timestamp": "2025-12-28T21:11:11.770Z"
+  },
+  "SUBIDBAZAR|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 3372,
+    "durationSeconds": 797,
+    "timestamp": "2025-12-28T21:11:12.168Z"
+  },
+  "SUBIDBAZAR|MODINA_MARKET|driving": {
+    "distanceMeters": 2528,
+    "durationSeconds": 591,
+    "timestamp": "2025-12-28T21:11:12.555Z"
+  },
+  "SUBIDBAZAR|CAMPUS|driving": {
+    "distanceMeters": 3884,
+    "durationSeconds": 778,
+    "timestamp": "2025-12-28T21:11:12.966Z"
+  },
+  "SUBIDBAZAR|CHOWHATTA|driving": {
+    "distanceMeters": 2146,
+    "durationSeconds": 411,
+    "timestamp": "2025-12-28T21:11:13.365Z"
+  },
+  "SUBIDBAZAR|JAIL_RD|driving": {
+    "distanceMeters": 3282,
+    "durationSeconds": 683,
+    "timestamp": "2025-12-28T21:11:13.755Z"
+  },
+  "SUBIDBAZAR|NAYASARAK|driving": {
+    "distanceMeters": 2947,
+    "durationSeconds": 604,
+    "timestamp": "2025-12-28T21:11:14.147Z"
+  },
+  "SUBIDBAZAR|LAKKATURA|driving": {
+    "distanceMeters": 4450,
+    "durationSeconds": 901,
+    "timestamp": "2025-12-28T21:11:14.604Z"
+  },
+  "SUBIDBAZAR|SHEIKHGHAT|driving": {
+    "distanceMeters": 3012,
+    "durationSeconds": 636,
+    "timestamp": "2025-12-28T21:11:14.999Z"
+  },
+  "SUBIDBAZAR|LAMABAZAR|driving": {
+    "distanceMeters": 1912,
+    "durationSeconds": 410,
+    "timestamp": "2025-12-28T21:11:15.404Z"
+  },
+  "SUBIDBAZAR|MEDICAL|driving": {
+    "distanceMeters": 1717,
+    "durationSeconds": 393,
+    "timestamp": "2025-12-28T21:11:15.805Z"
+  },
+  "SUBIDBAZAR|ZINDABAZAR|driving": {
+    "distanceMeters": 2514,
+    "durationSeconds": 501,
+    "timestamp": "2025-12-28T21:11:16.195Z"
+  },
+  "PATHANTULA|TILAGOR|driving": {
+    "distanceMeters": 6539,
+    "durationSeconds": 1308,
+    "timestamp": "2025-12-28T21:11:16.589Z"
+  },
+  "PATHANTULA|SHIBGONJ|driving": {
+    "distanceMeters": 5257,
+    "durationSeconds": 1145,
+    "timestamp": "2025-12-28T21:11:16.994Z"
+  },
+  "PATHANTULA|NAIORPUL|driving": {
+    "distanceMeters": 4987,
+    "durationSeconds": 1024,
+    "timestamp": "2025-12-28T21:11:17.385Z"
+  },
+  "PATHANTULA|KUMARPARA|driving": {
+    "distanceMeters": 4570,
+    "durationSeconds": 956,
+    "timestamp": "2025-12-28T21:11:17.775Z"
+  },
+  "PATHANTULA|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 4017,
+    "durationSeconds": 956,
+    "timestamp": "2025-12-28T21:11:18.163Z"
+  },
+  "PATHANTULA|AMBARKHANA|driving": {
+    "distanceMeters": 2736,
+    "durationSeconds": 691,
+    "timestamp": "2025-12-28T21:11:18.564Z"
+  },
+  "PATHANTULA|CAMPUS|driving": {
+    "distanceMeters": 3276,
+    "durationSeconds": 712,
+    "timestamp": "2025-12-28T21:11:18.959Z"
+  },
+  "PATHANTULA|CHOWHATTA|driving": {
+    "distanceMeters": 3360,
+    "durationSeconds": 680,
+    "timestamp": "2025-12-28T21:11:19.358Z"
+  },
+  "PATHANTULA|JAIL_RD|driving": {
+    "distanceMeters": 4496,
+    "durationSeconds": 952,
+    "timestamp": "2025-12-28T21:11:19.762Z"
+  },
+  "PATHANTULA|NAYASARAK|driving": {
+    "distanceMeters": 4161,
+    "durationSeconds": 872,
+    "timestamp": "2025-12-28T21:11:20.163Z"
+  },
+  "PATHANTULA|RIKABI_BAZAR|driving": {
+    "distanceMeters": 2685,
+    "durationSeconds": 557,
+    "timestamp": "2025-12-28T21:11:20.566Z"
+  },
+  "PATHANTULA|LAKKATURA|driving": {
+    "distanceMeters": 5095,
+    "durationSeconds": 1061,
+    "timestamp": "2025-12-28T21:11:20.955Z"
+  },
+  "PATHANTULA|SHEIKHGHAT|driving": {
+    "distanceMeters": 3836,
+    "durationSeconds": 862,
+    "timestamp": "2025-12-28T21:11:21.344Z"
+  },
+  "PATHANTULA|LAMABAZAR|driving": {
+    "distanceMeters": 3126,
+    "durationSeconds": 679,
+    "timestamp": "2025-12-28T21:11:21.751Z"
+  },
+  "PATHANTULA|MEDICAL|driving": {
+    "distanceMeters": 2542,
+    "durationSeconds": 620,
+    "timestamp": "2025-12-28T21:11:22.148Z"
+  },
+  "PATHANTULA|ZINDABAZAR|driving": {
+    "distanceMeters": 3728,
+    "durationSeconds": 770,
+    "timestamp": "2025-12-28T21:11:22.550Z"
+  },
+  "MODINA_MARKET|TILAGOR|driving": {
+    "distanceMeters": 7188,
+    "durationSeconds": 1510,
+    "timestamp": "2025-12-28T21:11:22.939Z"
+  },
+  "MODINA_MARKET|SHIBGONJ|driving": {
+    "distanceMeters": 5906,
+    "durationSeconds": 1347,
+    "timestamp": "2025-12-28T21:11:23.331Z"
+  },
+  "MODINA_MARKET|NAIORPUL|driving": {
+    "distanceMeters": 5636,
+    "durationSeconds": 1226,
+    "timestamp": "2025-12-28T21:11:23.718Z"
+  },
+  "MODINA_MARKET|KUMARPARA|driving": {
+    "distanceMeters": 5219,
+    "durationSeconds": 1158,
+    "timestamp": "2025-12-28T21:11:24.108Z"
+  },
+  "MODINA_MARKET|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 4666,
+    "durationSeconds": 1159,
+    "timestamp": "2025-12-28T21:11:24.506Z"
+  },
+  "MODINA_MARKET|AMBARKHANA|driving": {
+    "distanceMeters": 3385,
+    "durationSeconds": 893,
+    "timestamp": "2025-12-28T21:11:24.898Z"
+  },
+  "MODINA_MARKET|SUBIDBAZAR|driving": {
+    "distanceMeters": 2964,
+    "durationSeconds": 716,
+    "timestamp": "2025-12-28T21:11:25.288Z"
+  },
+  "MODINA_MARKET|CHOWHATTA|driving": {
+    "distanceMeters": 4009,
+    "durationSeconds": 883,
+    "timestamp": "2025-12-28T21:11:25.681Z"
+  },
+  "MODINA_MARKET|JAIL_RD|driving": {
+    "distanceMeters": 5145,
+    "durationSeconds": 1154,
+    "timestamp": "2025-12-28T21:11:26.119Z"
+  },
+  "MODINA_MARKET|NAYASARAK|driving": {
+    "distanceMeters": 4810,
+    "durationSeconds": 1075,
+    "timestamp": "2025-12-28T21:11:26.507Z"
+  },
+  "MODINA_MARKET|RIKABI_BAZAR|driving": {
+    "distanceMeters": 3334,
+    "durationSeconds": 760,
+    "timestamp": "2025-12-28T21:11:26.908Z"
+  },
+  "MODINA_MARKET|LAKKATURA|driving": {
+    "distanceMeters": 5744,
+    "durationSeconds": 1263,
+    "timestamp": "2025-12-28T21:11:27.307Z"
+  },
+  "MODINA_MARKET|SHEIKHGHAT|driving": {
+    "distanceMeters": 4785,
+    "durationSeconds": 1093,
+    "timestamp": "2025-12-28T21:11:27.695Z"
+  },
+  "MODINA_MARKET|LAMABAZAR|driving": {
+    "distanceMeters": 3775,
+    "durationSeconds": 882,
+    "timestamp": "2025-12-28T21:11:28.093Z"
+  },
+  "MODINA_MARKET|MEDICAL|driving": {
+    "distanceMeters": 3698,
+    "durationSeconds": 868,
+    "timestamp": "2025-12-28T21:11:28.483Z"
+  },
+  "MODINA_MARKET|ZINDABAZAR|driving": {
+    "distanceMeters": 4377,
+    "durationSeconds": 972,
+    "timestamp": "2025-12-28T21:11:28.884Z"
+  },
+  "CAMPUS|TILAGOR|driving": {
+    "distanceMeters": 9446,
+    "durationSeconds": 1869,
+    "timestamp": "2025-12-28T21:11:29.278Z"
+  },
+  "CAMPUS|SHIBGONJ|driving": {
+    "distanceMeters": 8164,
+    "durationSeconds": 1705,
+    "timestamp": "2025-12-28T21:11:29.670Z"
+  },
+  "CAMPUS|NAIORPUL|driving": {
+    "distanceMeters": 7894,
+    "durationSeconds": 1585,
+    "timestamp": "2025-12-28T21:11:30.057Z"
+  },
+  "CAMPUS|KUMARPARA|driving": {
+    "distanceMeters": 7477,
+    "durationSeconds": 1516,
+    "timestamp": "2025-12-28T21:11:30.443Z"
+  },
+  "CAMPUS|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 6924,
+    "durationSeconds": 1517,
+    "timestamp": "2025-12-28T21:11:31.100Z"
+  },
+  "CAMPUS|PATHANTULA|driving": {
+    "distanceMeters": 3282,
+    "durationSeconds": 700,
+    "timestamp": "2025-12-28T21:11:31.492Z"
+  },
+  "CAMPUS|CHOWHATTA|driving": {
+    "distanceMeters": 6267,
+    "durationSeconds": 1241,
+    "timestamp": "2025-12-28T21:11:31.885Z"
+  },
+  "CAMPUS|JAIL_RD|driving": {
+    "distanceMeters": 7403,
+    "durationSeconds": 1513,
+    "timestamp": "2025-12-28T21:11:32.290Z"
+  },
+  "CAMPUS|NAYASARAK|driving": {
+    "distanceMeters": 7068,
+    "durationSeconds": 1433,
+    "timestamp": "2025-12-28T21:11:32.686Z"
+  },
+  "CAMPUS|RIKABI_BAZAR|driving": {
+    "distanceMeters": 5593,
+    "durationSeconds": 1118,
+    "timestamp": "2025-12-28T21:11:33.080Z"
+  },
+  "CAMPUS|LAKKATURA|driving": {
+    "distanceMeters": 8002,
+    "durationSeconds": 1621,
+    "timestamp": "2025-12-28T21:11:33.477Z"
+  },
+  "CAMPUS|SHEIKHGHAT|driving": {
+    "distanceMeters": 6744,
+    "durationSeconds": 1422,
+    "timestamp": "2025-12-28T21:11:33.875Z"
+  },
+  "CAMPUS|LAMABAZAR|driving": {
+    "distanceMeters": 6033,
+    "durationSeconds": 1240,
+    "timestamp": "2025-12-28T21:11:34.274Z"
+  },
+  "CAMPUS|MEDICAL|driving": {
+    "distanceMeters": 5449,
+    "durationSeconds": 1180,
+    "timestamp": "2025-12-28T21:11:34.662Z"
+  },
+  "CAMPUS|ZINDABAZAR|driving": {
+    "distanceMeters": 6635,
+    "durationSeconds": 1331,
+    "timestamp": "2025-12-28T21:11:35.056Z"
+  },
+  "CHOWHATTA|TILAGOR|driving": {
+    "distanceMeters": 4544,
+    "durationSeconds": 826,
+    "timestamp": "2025-12-28T21:11:35.455Z"
+  },
+  "CHOWHATTA|SHIBGONJ|driving": {
+    "distanceMeters": 3262,
+    "durationSeconds": 663,
+    "timestamp": "2025-12-28T21:11:35.851Z"
+  },
+  "CHOWHATTA|NAIORPUL|driving": {
+    "distanceMeters": 1728,
+    "durationSeconds": 386,
+    "timestamp": "2025-12-28T21:11:36.241Z"
+  },
+  "CHOWHATTA|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 2023,
+    "durationSeconds": 474,
+    "timestamp": "2025-12-28T21:11:36.637Z"
+  },
+  "CHOWHATTA|SUBIDBAZAR|driving": {
+    "distanceMeters": 2167,
+    "durationSeconds": 454,
+    "timestamp": "2025-12-28T21:11:37.024Z"
+  },
+  "CHOWHATTA|PATHANTULA|driving": {
+    "distanceMeters": 3764,
+    "durationSeconds": 814,
+    "timestamp": "2025-12-28T21:11:37.415Z"
+  },
+  "CHOWHATTA|MODINA_MARKET|driving": {
+    "distanceMeters": 4027,
+    "durationSeconds": 903,
+    "timestamp": "2025-12-28T21:11:37.807Z"
+  },
+  "CHOWHATTA|CAMPUS|driving": {
+    "distanceMeters": 5747,
+    "durationSeconds": 1137,
+    "timestamp": "2025-12-28T21:11:38.198Z"
+  },
+  "CHOWHATTA|JAIL_RD|driving": {
+    "distanceMeters": 1237,
+    "durationSeconds": 314,
+    "timestamp": "2025-12-28T21:11:38.582Z"
+  },
+  "CHOWHATTA|NAYASARAK|driving": {
+    "distanceMeters": 902,
+    "durationSeconds": 235,
+    "timestamp": "2025-12-28T21:11:38.975Z"
+  },
+  "CHOWHATTA|LAKKATURA|driving": {
+    "distanceMeters": 3496,
+    "durationSeconds": 732,
+    "timestamp": "2025-12-28T21:11:39.383Z"
+  },
+  "CHOWHATTA|SHEIKHGHAT|driving": {
+    "distanceMeters": 2384,
+    "durationSeconds": 549,
+    "timestamp": "2025-12-28T21:11:39.775Z"
+  },
+  "CHOWHATTA|LAMABAZAR|driving": {
+    "distanceMeters": 1374,
+    "durationSeconds": 338,
+    "timestamp": "2025-12-28T21:11:40.176Z"
+  },
+  "CHOWHATTA|MEDICAL|driving": {
+    "distanceMeters": 1932,
+    "durationSeconds": 465,
+    "timestamp": "2025-12-28T21:11:40.567Z"
+  },
+  "CHOWHATTA|ZINDABAZAR|driving": {
+    "distanceMeters": 683,
+    "durationSeconds": 193,
+    "timestamp": "2025-12-28T21:11:40.965Z"
+  },
+  "JAIL_RD|TILAGOR|driving": {
+    "distanceMeters": 3612,
+    "durationSeconds": 808,
+    "timestamp": "2025-12-28T21:11:41.366Z"
+  },
+  "JAIL_RD|SHIBGONJ|driving": {
+    "distanceMeters": 3401,
+    "durationSeconds": 681,
+    "timestamp": "2025-12-28T21:11:41.765Z"
+  },
+  "JAIL_RD|NAIORPUL|driving": {
+    "distanceMeters": 731,
+    "durationSeconds": 221,
+    "timestamp": "2025-12-28T21:11:42.156Z"
+  },
+  "JAIL_RD|KUMARPARA|driving": {
+    "distanceMeters": 1449,
+    "durationSeconds": 343,
+    "timestamp": "2025-12-28T21:11:42.541Z"
+  },
+  "JAIL_RD|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 2161,
+    "durationSeconds": 493,
+    "timestamp": "2025-12-28T21:11:42.940Z"
+  },
+  "JAIL_RD|AMBARKHANA|driving": {
+    "distanceMeters": 1740,
+    "durationSeconds": 474,
+    "timestamp": "2025-12-28T21:11:43.325Z"
+  },
+  "JAIL_RD|SUBIDBAZAR|driving": {
+    "distanceMeters": 3303,
+    "durationSeconds": 707,
+    "timestamp": "2025-12-28T21:11:43.724Z"
+  },
+  "JAIL_RD|PATHANTULA|driving": {
+    "distanceMeters": 4900,
+    "durationSeconds": 1066,
+    "timestamp": "2025-12-28T21:11:44.119Z"
+  },
+  "JAIL_RD|MODINA_MARKET|driving": {
+    "distanceMeters": 5163,
+    "durationSeconds": 1155,
+    "timestamp": "2025-12-28T21:11:44.515Z"
+  },
+  "JAIL_RD|CAMPUS|driving": {
+    "distanceMeters": 6883,
+    "durationSeconds": 1389,
+    "timestamp": "2025-12-28T21:11:44.911Z"
+  },
+  "JAIL_RD|RIKABI_BAZAR|driving": {
+    "distanceMeters": 2070,
+    "durationSeconds": 468,
+    "timestamp": "2025-12-28T21:11:45.302Z"
+  },
+  "JAIL_RD|LAKKATURA|driving": {
+    "distanceMeters": 4632,
+    "durationSeconds": 984,
+    "timestamp": "2025-12-28T21:11:45.698Z"
+  },
+  "JAIL_RD|SHEIKHGHAT|driving": {
+    "distanceMeters": 2717,
+    "durationSeconds": 730,
+    "timestamp": "2025-12-28T21:11:46.089Z"
+  },
+  "JAIL_RD|LAMABAZAR|driving": {
+    "distanceMeters": 1708,
+    "durationSeconds": 519,
+    "timestamp": "2025-12-28T21:11:46.499Z"
+  },
+  "JAIL_RD|MEDICAL|driving": {
+    "distanceMeters": 3068,
+    "durationSeconds": 717,
+    "timestamp": "2025-12-28T21:11:46.899Z"
+  },
+  "JAIL_RD|ZINDABAZAR|driving": {
+    "distanceMeters": 692,
+    "durationSeconds": 188,
+    "timestamp": "2025-12-28T21:11:47.299Z"
+  },
+  "NAYASARAK|TILAGOR|driving": {
+    "distanceMeters": 4347,
+    "durationSeconds": 764,
+    "timestamp": "2025-12-28T21:11:47.699Z"
+  },
+  "NAYASARAK|SHIBGONJ|driving": {
+    "distanceMeters": 3065,
+    "durationSeconds": 600,
+    "timestamp": "2025-12-28T21:11:48.096Z"
+  },
+  "NAYASARAK|NAIORPUL|driving": {
+    "distanceMeters": 1066,
+    "durationSeconds": 247,
+    "timestamp": "2025-12-28T21:11:48.480Z"
+  },
+  "NAYASARAK|KUMARPARA|driving": {
+    "distanceMeters": 1114,
+    "durationSeconds": 262,
+    "timestamp": "2025-12-28T21:11:48.871Z"
+  },
+  "NAYASARAK|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 1825,
+    "durationSeconds": 412,
+    "timestamp": "2025-12-28T21:11:49.276Z"
+  },
+  "NAYASARAK|AMBARKHANA|driving": {
+    "distanceMeters": 1404,
+    "durationSeconds": 393,
+    "timestamp": "2025-12-28T21:11:49.664Z"
+  },
+  "NAYASARAK|SUBIDBAZAR|driving": {
+    "distanceMeters": 2967,
+    "durationSeconds": 626,
+    "timestamp": "2025-12-28T21:11:50.057Z"
+  },
+  "NAYASARAK|PATHANTULA|driving": {
+    "distanceMeters": 4564,
+    "durationSeconds": 985,
+    "timestamp": "2025-12-28T21:11:50.459Z"
+  },
+  "NAYASARAK|MODINA_MARKET|driving": {
+    "distanceMeters": 4827,
+    "durationSeconds": 1075,
+    "timestamp": "2025-12-28T21:11:50.858Z"
+  },
+  "NAYASARAK|CAMPUS|driving": {
+    "distanceMeters": 6547,
+    "durationSeconds": 1309,
+    "timestamp": "2025-12-28T21:11:51.249Z"
+  },
+  "NAYASARAK|JAIL_RD|driving": {
+    "distanceMeters": 485,
+    "durationSeconds": 122,
+    "timestamp": "2025-12-28T21:11:51.643Z"
+  },
+  "NAYASARAK|RIKABI_BAZAR|driving": {
+    "distanceMeters": 1734,
+    "durationSeconds": 387,
+    "timestamp": "2025-12-28T21:11:52.035Z"
+  },
+  "NAYASARAK|LAKKATURA|driving": {
+    "distanceMeters": 4296,
+    "durationSeconds": 904,
+    "timestamp": "2025-12-28T21:11:52.421Z"
+  },
+  "NAYASARAK|SHEIKHGHAT|driving": {
+    "distanceMeters": 3184,
+    "durationSeconds": 720,
+    "timestamp": "2025-12-28T21:11:52.822Z"
+  },
+  "NAYASARAK|LAMABAZAR|driving": {
+    "distanceMeters": 2175,
+    "durationSeconds": 509,
+    "timestamp": "2025-12-28T21:11:53.226Z"
+  },
+  "NAYASARAK|MEDICAL|driving": {
+    "distanceMeters": 2733,
+    "durationSeconds": 637,
+    "timestamp": "2025-12-28T21:11:53.623Z"
+  },
+  "NAYASARAK|ZINDABAZAR|driving": {
+    "distanceMeters": 782,
+    "durationSeconds": 204,
+    "timestamp": "2025-12-28T21:11:54.011Z"
+  },
+  "RIKABI_BAZAR|TILAGOR|driving": {
+    "distanceMeters": 5448,
+    "durationSeconds": 1033,
+    "timestamp": "2025-12-28T21:11:54.421Z"
+  },
+  "RIKABI_BAZAR|SHIBGONJ|driving": {
+    "distanceMeters": 4166,
+    "durationSeconds": 870,
+    "timestamp": "2025-12-28T21:11:54.820Z"
+  },
+  "RIKABI_BAZAR|NAIORPUL|driving": {
+    "distanceMeters": 2631,
+    "durationSeconds": 593,
+    "timestamp": "2025-12-28T21:11:55.216Z"
+  },
+  "RIKABI_BAZAR|KUMARPARA|driving": {
+    "distanceMeters": 2214,
+    "durationSeconds": 525,
+    "timestamp": "2025-12-28T21:11:55.613Z"
+  },
+  "RIKABI_BAZAR|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 2926,
+    "durationSeconds": 681,
+    "timestamp": "2025-12-28T21:11:56.005Z"
+  },
+  "RIKABI_BAZAR|AMBARKHANA|driving": {
+    "distanceMeters": 1770,
+    "durationSeconds": 497,
+    "timestamp": "2025-12-28T21:11:56.402Z"
+  },
+  "RIKABI_BAZAR|PATHANTULA|driving": {
+    "distanceMeters": 3097,
+    "durationSeconds": 710,
+    "timestamp": "2025-12-28T21:11:56.787Z"
+  },
+  "RIKABI_BAZAR|CAMPUS|driving": {
+    "distanceMeters": 5080,
+    "durationSeconds": 1033,
+    "timestamp": "2025-12-28T21:11:57.178Z"
+  },
+  "RIKABI_BAZAR|JAIL_RD|driving": {
+    "distanceMeters": 2141,
+    "durationSeconds": 521,
+    "timestamp": "2025-12-28T21:11:57.570Z"
+  },
+  "RIKABI_BAZAR|NAYASARAK|driving": {
+    "distanceMeters": 1805,
+    "durationSeconds": 442,
+    "timestamp": "2025-12-28T21:11:57.976Z"
+  },
+  "RIKABI_BAZAR|LAKKATURA|driving": {
+    "distanceMeters": 4129,
+    "durationSeconds": 867,
+    "timestamp": "2025-12-28T21:11:58.362Z"
+  },
+  "RIKABI_BAZAR|SHEIKHGHAT|driving": {
+    "distanceMeters": 1780,
+    "durationSeconds": 460,
+    "timestamp": "2025-12-28T21:11:58.754Z"
+  },
+  "RIKABI_BAZAR|LAMABAZAR|driving": {
+    "distanceMeters": 771,
+    "durationSeconds": 248,
+    "timestamp": "2025-12-28T21:11:59.155Z"
+  },
+  "RIKABI_BAZAR|MEDICAL|driving": {
+    "distanceMeters": 1040,
+    "durationSeconds": 260,
+    "timestamp": "2025-12-28T21:11:59.543Z"
+  },
+  "RIKABI_BAZAR|ZINDABAZAR|driving": {
+    "distanceMeters": 1373,
+    "durationSeconds": 339,
+    "timestamp": "2025-12-28T21:11:59.930Z"
+  },
+  "LAKKATURA|TILAGOR|driving": {
+    "distanceMeters": 6488,
+    "durationSeconds": 1190,
+    "timestamp": "2025-12-28T21:12:00.319Z"
+  },
+  "LAKKATURA|SHIBGONJ|driving": {
+    "distanceMeters": 5206,
+    "durationSeconds": 1027,
+    "timestamp": "2025-12-28T21:12:00.712Z"
+  },
+  "LAKKATURA|NAIORPUL|driving": {
+    "distanceMeters": 5285,
+    "durationSeconds": 1030,
+    "timestamp": "2025-12-28T21:12:01.108Z"
+  },
+  "LAKKATURA|KUMARPARA|driving": {
+    "distanceMeters": 4588,
+    "durationSeconds": 910,
+    "timestamp": "2025-12-28T21:12:01.512Z"
+  },
+  "LAKKATURA|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 3967,
+    "durationSeconds": 838,
+    "timestamp": "2025-12-28T21:12:01.911Z"
+  },
+  "LAKKATURA|SUBIDBAZAR|driving": {
+    "distanceMeters": 4453,
+    "durationSeconds": 943,
+    "timestamp": "2025-12-28T21:12:02.302Z"
+  },
+  "LAKKATURA|PATHANTULA|driving": {
+    "distanceMeters": 5499,
+    "durationSeconds": 1195,
+    "timestamp": "2025-12-28T21:12:02.689Z"
+  },
+  "LAKKATURA|MODINA_MARKET|driving": {
+    "distanceMeters": 5762,
+    "durationSeconds": 1284,
+    "timestamp": "2025-12-28T21:12:03.081Z"
+  },
+  "LAKKATURA|CAMPUS|driving": {
+    "distanceMeters": 7482,
+    "durationSeconds": 1518,
+    "timestamp": "2025-12-28T21:12:03.474Z"
+  },
+  "LAKKATURA|CHOWHATTA|driving": {
+    "distanceMeters": 3460,
+    "durationSeconds": 748,
+    "timestamp": "2025-12-28T21:12:03.877Z"
+  },
+  "LAKKATURA|JAIL_RD|driving": {
+    "distanceMeters": 4596,
+    "durationSeconds": 1020,
+    "timestamp": "2025-12-28T21:12:04.268Z"
+  },
+  "LAKKATURA|NAYASARAK|driving": {
+    "distanceMeters": 4261,
+    "durationSeconds": 941,
+    "timestamp": "2025-12-28T21:12:04.651Z"
+  },
+  "LAKKATURA|RIKABI_BAZAR|driving": {
+    "distanceMeters": 4078,
+    "durationSeconds": 864,
+    "timestamp": "2025-12-28T21:12:05.039Z"
+  },
+  "LAKKATURA|SHEIKHGHAT|driving": {
+    "distanceMeters": 5528,
+    "durationSeconds": 1197,
+    "timestamp": "2025-12-28T21:12:05.441Z"
+  },
+  "LAKKATURA|LAMABAZAR|driving": {
+    "distanceMeters": 4519,
+    "durationSeconds": 986,
+    "timestamp": "2025-12-28T21:12:05.842Z"
+  },
+  "LAKKATURA|MEDICAL|driving": {
+    "distanceMeters": 5077,
+    "durationSeconds": 1113,
+    "timestamp": "2025-12-28T21:12:06.246Z"
+  },
+  "LAKKATURA|ZINDABAZAR|driving": {
+    "distanceMeters": 3828,
+    "durationSeconds": 838,
+    "timestamp": "2025-12-28T21:12:06.647Z"
+  },
+  "SHEIKHGHAT|TILAGOR|driving": {
+    "distanceMeters": 6849,
+    "durationSeconds": 1304,
+    "timestamp": "2025-12-28T21:12:07.049Z"
+  },
+  "SHEIKHGHAT|SHIBGONJ|driving": {
+    "distanceMeters": 5567,
+    "durationSeconds": 1141,
+    "timestamp": "2025-12-28T21:12:07.457Z"
+  },
+  "SHEIKHGHAT|NAIORPUL|driving": {
+    "distanceMeters": 2765,
+    "durationSeconds": 801,
+    "timestamp": "2025-12-28T21:12:07.855Z"
+  },
+  "SHEIKHGHAT|KUMARPARA|driving": {
+    "distanceMeters": 3616,
+    "durationSeconds": 796,
+    "timestamp": "2025-12-28T21:12:08.251Z"
+  },
+  "SHEIKHGHAT|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 4327,
+    "durationSeconds": 952,
+    "timestamp": "2025-12-28T21:12:08.654Z"
+  },
+  "SHEIKHGHAT|AMBARKHANA|driving": {
+    "distanceMeters": 3172,
+    "durationSeconds": 768,
+    "timestamp": "2025-12-28T21:12:09.040Z"
+  },
+  "SHEIKHGHAT|SUBIDBAZAR|driving": {
+    "distanceMeters": 2999,
+    "durationSeconds": 632,
+    "timestamp": "2025-12-28T21:12:09.441Z"
+  },
+  "SHEIKHGHAT|PATHANTULA|driving": {
+    "distanceMeters": 4495,
+    "durationSeconds": 961,
+    "timestamp": "2025-12-28T21:12:09.839Z"
+  },
+  "SHEIKHGHAT|MODINA_MARKET|driving": {
+    "distanceMeters": 4534,
+    "durationSeconds": 1031,
+    "timestamp": "2025-12-28T21:12:10.238Z"
+  },
+  "SHEIKHGHAT|CAMPUS|driving": {
+    "distanceMeters": 5412,
+    "durationSeconds": 1072,
+    "timestamp": "2025-12-28T21:12:10.627Z"
+  },
+  "SHEIKHGHAT|CHOWHATTA|driving": {
+    "distanceMeters": 2406,
+    "durationSeconds": 521,
+    "timestamp": "2025-12-28T21:12:11.019Z"
+  },
+  "SHEIKHGHAT|JAIL_RD|driving": {
+    "distanceMeters": 2450,
+    "durationSeconds": 736,
+    "timestamp": "2025-12-28T21:12:11.412Z"
+  },
+  "SHEIKHGHAT|NAYASARAK|driving": {
+    "distanceMeters": 3206,
+    "durationSeconds": 713,
+    "timestamp": "2025-12-28T21:12:11.810Z"
+  },
+  "SHEIKHGHAT|LAKKATURA|driving": {
+    "distanceMeters": 5530,
+    "durationSeconds": 1138,
+    "timestamp": "2025-12-28T21:12:12.208Z"
+  },
+  "SHEIKHGHAT|LAMABAZAR|driving": {
+    "distanceMeters": 1069,
+    "durationSeconds": 233,
+    "timestamp": "2025-12-28T21:12:12.606Z"
+  },
+  "SHEIKHGHAT|MEDICAL|driving": {
+    "distanceMeters": 1617,
+    "durationSeconds": 343,
+    "timestamp": "2025-12-28T21:12:12.995Z"
+  },
+  "SHEIKHGHAT|ZINDABAZAR|driving": {
+    "distanceMeters": 2073,
+    "durationSeconds": 554,
+    "timestamp": "2025-12-28T21:12:13.387Z"
+  },
+  "LAMABAZAR|TILAGOR|driving": {
+    "distanceMeters": 5840,
+    "durationSeconds": 1105,
+    "timestamp": "2025-12-28T21:12:13.781Z"
+  },
+  "LAMABAZAR|SHIBGONJ|driving": {
+    "distanceMeters": 4558,
+    "durationSeconds": 942,
+    "timestamp": "2025-12-28T21:12:14.177Z"
+  },
+  "LAMABAZAR|NAIORPUL|driving": {
+    "distanceMeters": 3023,
+    "durationSeconds": 666,
+    "timestamp": "2025-12-28T21:12:14.579Z"
+  },
+  "LAMABAZAR|KUMARPARA|driving": {
+    "distanceMeters": 2606,
+    "durationSeconds": 597,
+    "timestamp": "2025-12-28T21:12:14.977Z"
+  },
+  "LAMABAZAR|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 3318,
+    "durationSeconds": 754,
+    "timestamp": "2025-12-28T21:12:15.382Z"
+  },
+  "LAMABAZAR|AMBARKHANA|driving": {
+    "distanceMeters": 2162,
+    "durationSeconds": 570,
+    "timestamp": "2025-12-28T21:12:15.777Z"
+  },
+  "LAMABAZAR|SUBIDBAZAR|driving": {
+    "distanceMeters": 1892,
+    "durationSeconds": 423,
+    "timestamp": "2025-12-28T21:12:16.166Z"
+  },
+  "LAMABAZAR|PATHANTULA|driving": {
+    "distanceMeters": 3488,
+    "durationSeconds": 782,
+    "timestamp": "2025-12-28T21:12:16.553Z"
+  },
+  "LAMABAZAR|MODINA_MARKET|driving": {
+    "distanceMeters": 3751,
+    "durationSeconds": 872,
+    "timestamp": "2025-12-28T21:12:16.946Z"
+  },
+  "LAMABAZAR|CAMPUS|driving": {
+    "distanceMeters": 5472,
+    "durationSeconds": 1106,
+    "timestamp": "2025-12-28T21:12:17.335Z"
+  },
+  "LAMABAZAR|CHOWHATTA|driving": {
+    "distanceMeters": 1397,
+    "durationSeconds": 322,
+    "timestamp": "2025-12-28T21:12:17.721Z"
+  },
+  "LAMABAZAR|JAIL_RD|driving": {
+    "distanceMeters": 1708,
+    "durationSeconds": 543,
+    "timestamp": "2025-12-28T21:12:18.123Z"
+  },
+  "LAMABAZAR|NAYASARAK|driving": {
+    "distanceMeters": 2197,
+    "durationSeconds": 514,
+    "timestamp": "2025-12-28T21:12:18.519Z"
+  },
+  "LAMABAZAR|RIKABI_BAZAR|driving": {
+    "distanceMeters": 520,
+    "durationSeconds": 153,
+    "timestamp": "2025-12-28T21:12:18.912Z"
+  },
+  "LAMABAZAR|LAKKATURA|driving": {
+    "distanceMeters": 4521,
+    "durationSeconds": 939,
+    "timestamp": "2025-12-28T21:12:19.298Z"
+  },
+  "LAMABAZAR|SHEIKHGHAT|driving": {
+    "distanceMeters": 1069,
+    "durationSeconds": 267,
+    "timestamp": "2025-12-28T21:12:19.967Z"
+  },
+  "LAMABAZAR|MEDICAL|driving": {
+    "distanceMeters": 1436,
+    "durationSeconds": 377,
+    "timestamp": "2025-12-28T21:12:20.366Z"
+  },
+  "LAMABAZAR|ZINDABAZAR|driving": {
+    "distanceMeters": 1064,
+    "durationSeconds": 355,
+    "timestamp": "2025-12-28T21:12:20.776Z"
+  },
+  "MEDICAL|TILAGOR|driving": {
+    "distanceMeters": 6370,
+    "durationSeconds": 1228,
+    "timestamp": "2025-12-28T21:12:21.172Z"
+  },
+  "MEDICAL|SHIBGONJ|driving": {
+    "distanceMeters": 5088,
+    "durationSeconds": 1064,
+    "timestamp": "2025-12-28T21:12:21.566Z"
+  },
+  "MEDICAL|NAIORPUL|driving": {
+    "distanceMeters": 3554,
+    "durationSeconds": 788,
+    "timestamp": "2025-12-28T21:12:21.956Z"
+  },
+  "MEDICAL|KUMARPARA|driving": {
+    "distanceMeters": 3137,
+    "durationSeconds": 719,
+    "timestamp": "2025-12-28T21:12:22.347Z"
+  },
+  "MEDICAL|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 3849,
+    "durationSeconds": 876,
+    "timestamp": "2025-12-28T21:12:22.760Z"
+  },
+  "MEDICAL|AMBARKHANA|driving": {
+    "distanceMeters": 2693,
+    "durationSeconds": 692,
+    "timestamp": "2025-12-28T21:12:23.154Z"
+  },
+  "MEDICAL|SUBIDBAZAR|driving": {
+    "distanceMeters": 1704,
+    "durationSeconds": 394,
+    "timestamp": "2025-12-28T21:12:23.549Z"
+  },
+  "MEDICAL|PATHANTULA|driving": {
+    "distanceMeters": 3200,
+    "durationSeconds": 723,
+    "timestamp": "2025-12-28T21:12:23.948Z"
+  },
+  "MEDICAL|MODINA_MARKET|driving": {
+    "distanceMeters": 3240,
+    "durationSeconds": 793,
+    "timestamp": "2025-12-28T21:12:24.335Z"
+  },
+  "MEDICAL|CAMPUS|driving": {
+    "distanceMeters": 4117,
+    "durationSeconds": 833,
+    "timestamp": "2025-12-28T21:12:24.739Z"
+  },
+  "MEDICAL|CHOWHATTA|driving": {
+    "distanceMeters": 1927,
+    "durationSeconds": 444,
+    "timestamp": "2025-12-28T21:12:25.137Z"
+  },
+  "MEDICAL|JAIL_RD|driving": {
+    "distanceMeters": 3063,
+    "durationSeconds": 716,
+    "timestamp": "2025-12-28T21:12:25.537Z"
+  },
+  "MEDICAL|NAYASARAK|driving": {
+    "distanceMeters": 2728,
+    "durationSeconds": 636,
+    "timestamp": "2025-12-28T21:12:25.929Z"
+  },
+  "MEDICAL|RIKABI_BAZAR|driving": {
+    "distanceMeters": 1252,
+    "durationSeconds": 321,
+    "timestamp": "2025-12-28T21:12:26.314Z"
+  },
+  "MEDICAL|LAKKATURA|driving": {
+    "distanceMeters": 5052,
+    "durationSeconds": 1061,
+    "timestamp": "2025-12-28T21:12:26.711Z"
+  },
+  "MEDICAL|SHEIKHGHAT|driving": {
+    "distanceMeters": 1617,
+    "durationSeconds": 346,
+    "timestamp": "2025-12-28T21:12:27.099Z"
+  },
+  "MEDICAL|LAMABAZAR|driving": {
+    "distanceMeters": 1436,
+    "durationSeconds": 383,
+    "timestamp": "2025-12-28T21:12:27.489Z"
+  },
+  "MEDICAL|ZINDABAZAR|driving": {
+    "distanceMeters": 2295,
+    "durationSeconds": 534,
+    "timestamp": "2025-12-28T21:12:27.898Z"
+  },
+  "ZINDABAZAR|TILAGOR|driving": {
+    "distanceMeters": 4218,
+    "durationSeconds": 1025,
+    "timestamp": "2025-12-28T21:12:28.298Z"
+  },
+  "ZINDABAZAR|SHIBGONJ|driving": {
+    "distanceMeters": 3456,
+    "durationSeconds": 914,
+    "timestamp": "2025-12-28T21:12:28.688Z"
+  },
+  "ZINDABAZAR|NAIORPUL|driving": {
+    "distanceMeters": 1149,
+    "durationSeconds": 348,
+    "timestamp": "2025-12-28T21:12:29.074Z"
+  },
+  "ZINDABAZAR|KUMARPARA|driving": {
+    "distanceMeters": 2223,
+    "durationSeconds": 582,
+    "timestamp": "2025-12-28T21:12:29.467Z"
+  },
+  "ZINDABAZAR|SHAHI_EIDGAH|driving": {
+    "distanceMeters": 2779,
+    "durationSeconds": 727,
+    "timestamp": "2025-12-28T21:12:29.855Z"
+  },
+  "ZINDABAZAR|AMBARKHANA|driving": {
+    "distanceMeters": 1793,
+    "durationSeconds": 573,
+    "timestamp": "2025-12-28T21:12:30.244Z"
+  },
+  "ZINDABAZAR|SUBIDBAZAR|driving": {
+    "distanceMeters": 2823,
+    "durationSeconds": 665,
+    "timestamp": "2025-12-28T21:12:30.631Z"
+  },
+  "ZINDABAZAR|PATHANTULA|driving": {
+    "distanceMeters": 4420,
+    "durationSeconds": 1024,
+    "timestamp": "2025-12-28T21:12:31.038Z"
+  },
+  "ZINDABAZAR|MODINA_MARKET|driving": {
+    "distanceMeters": 4683,
+    "durationSeconds": 1114,
+    "timestamp": "2025-12-28T21:12:31.434Z"
+  },
+  "ZINDABAZAR|CAMPUS|driving": {
+    "distanceMeters": 6403,
+    "durationSeconds": 1347,
+    "timestamp": "2025-12-28T21:12:31.835Z"
+  },
+  "ZINDABAZAR|CHOWHATTA|driving": {
+    "distanceMeters": 1028,
+    "durationSeconds": 326,
+    "timestamp": "2025-12-28T21:12:32.222Z"
+  },
+  "ZINDABAZAR|JAIL_RD|driving": {
+    "distanceMeters": 835,
+    "durationSeconds": 282,
+    "timestamp": "2025-12-28T21:12:32.614Z"
+  },
+  "ZINDABAZAR|NAYASARAK|driving": {
+    "distanceMeters": 1102,
+    "durationSeconds": 353,
+    "timestamp": "2025-12-28T21:12:33.008Z"
+  },
+  "ZINDABAZAR|RIKABI_BAZAR|driving": {
+    "distanceMeters": 1590,
+    "durationSeconds": 426,
+    "timestamp": "2025-12-28T21:12:33.410Z"
+  },
+  "ZINDABAZAR|LAKKATURA|driving": {
+    "distanceMeters": 4152,
+    "durationSeconds": 943,
+    "timestamp": "2025-12-28T21:12:33.793Z"
+  },
+  "ZINDABAZAR|SHEIKHGHAT|driving": {
+    "distanceMeters": 2352,
+    "durationSeconds": 633,
+    "timestamp": "2025-12-28T21:12:34.185Z"
+  },
+  "ZINDABAZAR|LAMABAZAR|driving": {
+    "distanceMeters": 1368,
+    "durationSeconds": 480,
+    "timestamp": "2025-12-28T21:12:34.579Z"
+  },
+  "ZINDABAZAR|MEDICAL|driving": {
+    "distanceMeters": 2589,
+    "durationSeconds": 675,
+    "timestamp": "2025-12-28T21:12:34.960Z"
+  }
+}

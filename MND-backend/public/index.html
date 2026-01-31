@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylhet Bus Routing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #eef2ff 0%, #fae8ff 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                grid-template-columns: 350px 1fr;
+            }
+        }
+
+        /* Sidebar / Search Form */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 14px;
+            transition: all 0.2s;
+            background-color: #f8fafc;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            background-color: #fff;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        /* Results Area */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .map-card {
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+            background-color: #e2e8f0;
+        }
+
+        .results-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .route-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e2e8f0;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .route-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .route-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .route-title {
+            font-weight: 600;
+            color: var(--text-main);
+            font-size: 16px;
+        }
+
+        .route-badge {
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 9999px;
+            font-weight: 500;
+        }
+
+        .badge-fastest {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+
+        .badge-cheap {
+            background-color: #e0f2fe;
+            color: #0369a1;
+        }
+
+        .route-stats {
+            display: flex;
+            gap: 16px;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .legs-timeline {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .leg {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            background: #f1f5f9;
+            color: #475569;
+        }
+
+        .leg.bus {
+            background: #eef2ff;
+            color: #4338ca;
+            border: 1px solid #c7d2fe;
+        }
+
+        .leg.local {
+            background: #fff1f2;
+            color: #be123c;
+            border: 1px solid #fecdd3;
+        }
+
+        .arrow {
+            color: #cbd5e1;
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        /* API Key Banner */
+        .banner {
+            background: #fef3c7;
+            color: #92400e;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="card">
+                <h1>🚌 Sylhet Go</h1>
+                
+                <div id="api-warning" class="banner">
+                    ⚠️ API Key missing. Some map features may be limited.
+                </div>
+
+                <div class="form-group">
+                    <label for="from">From</label>
+                    <select id="from">
+                        <option value="">Select origin...</option>
+                        <option value="loading" disabled>Loading stops...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="to">To</label>
+                    <select id="to">
+                        <option value="">Select destination...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="time">Departure Time</label>
+                    <input type="time" id="time" value="08:30">
+                </div>
+
+                <button id="search-btn" onclick="findRoutes()">
+                    <span>Find Routes</span>
+                </button>
+            </div>
+
+            <div class="card">
+                <h3 style="margin-bottom: 12px; font-size: 16px;">Quick Stats</h3>
+                <div style="font-size: 14px; color: var(--text-muted);">
+                    <p>Network Status: <span style="color: #10b981; font-weight: 600;">Active</span></p>
+                    <p id="total-nodes">Stops: --</p>
+                    <p id="total-routes">Routes: --</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Map -->
+            <div class="card map-card">
+                <div id="map"></div>
+            </div>
+
+            <!-- Results -->
+            <div id="results-area" class="results-list">
+                <div class="empty-state">
+                    <span class="empty-icon">📍</span>
+                    <h3>Where do you want to go?</h3>
+                    <p>Select your origin and destination to see the best bus routes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logic -->
+    <script>
+        // API Configuration
+        const API_BASE = window.location.origin; // Same origin as backend
+        let nodesCache = [];
+        let map;
+        let markers = [];
+
+        // 1. Initialize
+        window.addEventListener('load', async () => {
+            await loadNodes();
+            await loadStats();
+        });
+
+        // 2. Load Nodes
+        async function loadNodes() {
+            try {
+                const res = await fetch(`${API_BASE}/api/nodes`);
+                const data = await res.json();
+                nodesCache = data.nodes;
+
+                const fromSelect = document.getElementById('from');
+                const toSelect = document.getElementById('to');
+
+                // Clear loading options
+                fromSelect.innerHTML = '<option value="">Select origin...</option>';
+                toSelect.innerHTML = '<option value="">Select destination...</option>';
+
+                // Sort nodes alphabetically
+                const sorted = nodesCache.sort((a, b) => a.name.localeCompare(b.name));
+
+                sorted.forEach(node => {
+                    const option = `<option value="${node.id}">${node.name}</option>`;
+                    fromSelect.insertAdjacentHTML('beforeend', option);
+                    toSelect.insertAdjacentHTML('beforeend', option);
+                });
+
+            } catch (err) {
+                console.error('Failed to load nodes:', err);
+                alert('Could not connect to backend API. Is the server running?');
+            }
+        }
+
+        // 3. Load Stats (Health Check)
+        async function loadStats() {
+            try {
+                const res = await fetch(`${API_BASE}/api/health`);
+                const data = await res.json();
+                
+                document.getElementById('total-nodes').textContent = `Stops: ${data.graph?.nodes || '-'}`;
+                document.getElementById('total-routes').textContent = `Routes: ${data.graph?.routes || '-'}`;
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // 4. Find Routes
+        async function findRoutes() {
+            const from = document.getElementById('from').value;
+            const to = document.getElementById('to').value;
+            const time = document.getElementById('time').value;
+            const btn = document.getElementById('search-btn');
+            const resultsArea = document.getElementById('results-area');
+
+            if (!from || !to) {
+                alert('Please select both origin and destination');
+                return;
+            }
+
+            // UI Loading State
+            btn.innerHTML = 'Searching...';
+            btn.disabled = true;
+            resultsArea.innerHTML = '<div class="loading">Finding best routes...</div>';
+
+            try {
+                const res = await fetch(`${API_BASE}/api/routes?from=${from}&to=${to}&time=${time}`);
+                const data = await res.json();
+
+                renderResults(data);
+                updateMap(from, to, data);
+
+            } catch (err) {
+                console.error(err);
+                resultsArea.innerHTML = `
+                    <div class="empty-state" style="color: #ef4444;">
+                        <h3>Error finding routes</h3>
+                        <p>${err.message}</p>
+                    </div>
+                `;
+            } finally {
+                btn.innerHTML = 'Find Routes';
+                btn.disabled = false;
+            }
+        }
+
+        // 5. Render Results
+        function renderResults(data) {
+            const container = document.getElementById('results-area');
+            container.innerHTML = '';
+
+            if (!data.options || data.options.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No routes found</h3>
+                        <p>Try a different time or location.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            data.options.forEach(option => {
+                const badgeClass = option.category === 'fastest' ? 'badge-fastest' : 'badge-cheap';
+                
+                const legsHtml = option.legs.map((leg, i) => {
+                    const arrow = i < option.legs.length ? '<span class="arrow">→</span>' : '';
+                    const modeClass = leg.mode;
+                    const modeIcon = leg.mode === 'bus' ? '🚌' : (leg.mode === 'walk' ? '🚶' : '🛺');
+                    return `
+                        <div class="leg ${modeClass}">
+                            ${modeIcon} ${leg.from}
+                        </div>
+                        ${arrow}
+                    `;
+                }).join('');
+
+                // Add final destination
+                const finalLeg = option.legs[option.legs.length - 1];
+                const finalHtml = `<div class="leg ${finalLeg.mode}">${finalLeg.to}</div>`;
+
+                const html = `
+                    <div class="route-card" onclick="highlightRoute('${option.label}')">
+                        <div class="route-header">
+                            <div>
+                                <div class="route-title">${option.label}</div>
+                                <span class="route-badge ${badgeClass}">${option.category.toUpperCase()}</span>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="route-title text-xl">${option.totalTimeMin} min</div>
+                                <div style="font-size: 13px; color: #64748b;">৳${option.totalCost}</div>
+                            </div>
+                        </div>
+                        
+                        <div class="route-stats">
+                            <div class="stat-item">🔄 ${option.transfers} transfers</div>
+                            <div class="stat-item">🚶 ${option.localDistanceMeters}m walking</div>
+                        </div>
+
+                        <div class="legs-timeline">
+                            ${legsHtml}
+                            ${finalHtml}
+                        </div>
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        // 6. Map Logic
+        function initMap() {
+            // Default center: Sylhet
+            const sylhet = { lat: 24.8949, lng: 91.8687 };
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 13,
+                center: sylhet,
+                mapTypeControl: false,
+                streetViewControl: false
+            });
+        }
+
+        function updateMap(fromId, toId, routeData) {
+            // Clear existing markers
+            markers.forEach(m => m.setMap(null));
+            markers = [];
+
+            // We don't have lat/lng in the API response yet (unless we geocode)
+            // But we can try to show bounds if we had them.
+            // For now, let's just create markers for origin/dest if we can find them in node list
+            
+            // NOTE: Since your nodes.json has gmaps_address but not lat/lng, 
+            // we can't plot them instantly without Geocoding API.
+            // However, your 'verify-api.ts' showed you have Geocoding enabled likely? 
+            // If not, we just rely on text.
+
+            // If we want to be fancy, we'd add 'lat/lng' to nodes.json using populateEdges script in future.
+            // For this version step, we will verify the code works first.
+        }
+
+        // Global callback for Google Maps
+        window.initMap = initMap;
+    </script>
+    
+    <!-- Load Google Maps API -->
+    <!-- We inject the key safely from a separate endpoint or just hardcode for demo since user provided it -->
+    <script>
+        // In a real app, fetch key from backend. For this demo, using the one provided.
+        const script = document.createElement('script');
+        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDteAecPiWARPEwF1k7ghusUx9FymmMweo&callback=initMap`;
+        script.async = true;
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>
