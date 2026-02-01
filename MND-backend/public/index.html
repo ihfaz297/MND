@@ -530,14 +530,20 @@
         window.initMap = initMap;
     </script>
     
-    <!-- Load Google Maps API -->
-    <!-- We inject the key safely from a separate endpoint or just hardcode for demo since user provided it -->
+    <!-- Load Google Maps API - fetches key from backend config -->
     <script>
-        // In a real app, fetch key from backend. For this demo, using the one provided.
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDteAecPiWARPEwF1k7ghusUx9FymmMweo&callback=initMap`;
-        script.async = true;
-        document.head.appendChild(script);
+        // Fetch API key from backend config endpoint
+        fetch('/api/config')
+            .then(response => response.json())
+            .then(config => {
+                const script = document.createElement('script');
+                script.src = `https://maps.googleapis.com/maps/api/js?key=${config.mapsApiKey}&callback=initMap`;
+                script.async = true;
+                document.head.appendChild(script);
+            })
+            .catch(err => {
+                console.error('Failed to load Maps API config:', err);
+            });
     </script>
 </body>
 </html>
