@@ -85,7 +85,7 @@
             <h2>Test Results:</h2>
             <div class="detail-item">
                 <span class="detail-label">API Key:</span> 
-                <span id="apikey">AIzaSyASr3Lflqalu9EPCrGBofpD2-CtQxFLZuo</span>
+                <span id="apikey">Loading from config...</span>
             </div>
             <div class="detail-item">
                 <span class="detail-label">Location:</span> 
@@ -174,10 +174,28 @@
         }
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASr3Lflqalu9EPCrGBofpD2-CtQxFLZuo&callback=initMap&v=weekly" 
-            async 
-            defer
-            onerror="handleError()">
+    <!-- Load API key from backend config endpoint -->
+    <script>
+        fetch('/api/config')
+            .then(response => response.json())
+            .then(config => {
+                // Display the key (masked for security)
+                const key = config.mapsApiKey;
+                document.getElementById('apikey').textContent = key ? key.substring(0, 10) + '...' : 'Not configured';
+                
+                // Load Google Maps with the key
+                const script = document.createElement('script');
+                script.src = `https://maps.googleapis.com/maps/api/js?key=${key}&callback=initMap&v=weekly`;
+                script.async = true;
+                script.defer = true;
+                script.onerror = handleError;
+                document.body.appendChild(script);
+            })
+            .catch(err => {
+                console.error('Failed to load config:', err);
+                document.getElementById('apikey').textContent = 'Failed to load';
+                handleError();
+            });
     </script>
 </body>
 </html>
