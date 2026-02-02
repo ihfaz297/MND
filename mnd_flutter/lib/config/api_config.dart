@@ -3,7 +3,7 @@ class ApiConfig {
   // static const String baseUrl = 'http://10.0.2.2:3000/api';
   
   // The original IP for a physical device on the same Wi-Fi:
-  static const String baseUrl = 'http://192.168.31.219:3000/api';
+  static const String baseUrl = 'http://192.168.0.114:3000/api';
   
   // For iOS simulator
   // static const String baseUrl = 'http://localhost:3000/api';

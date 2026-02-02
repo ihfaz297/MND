@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import '../../providers/auth_provider.dart';
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -23,7 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
     final email = _emailController.text.trim();
     if (email.isEmpty || !email.contains('@')) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Please enter a valid email')),
+        const SnackBar(content: Text('Please enter a valid email')),
       );
       return;
     }
@@ -32,14 +34,16 @@ class _LoginScreenState extends State<LoginScreen> {
     final success = await authProvider.sendMagicLink(email);
     
     if (success) {
+      if (!mounted) return;
       setState(() => _linkSent = true);
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           content: Text('Magic link sent! Check your email.'),
           backgroundColor: Colors.green,
         ),
       );
     } else {
+      if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(authProvider.error ?? 'Failed to send link'),
@@ -53,7 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
     final token = _tokenController.text.trim();
     if (token.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Please enter the token')),
+        const SnackBar(content: Text('Please enter the token')),
       );
       return;
     }
@@ -62,8 +66,10 @@ class _LoginScreenState extends State<LoginScreen> {
     final success = await authProvider.verifyToken(token);
     
     if (success) {
+      if (!mounted) return;
       Navigator.of(context).pop(); // Return to previous screen
     } else {
+      if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(authProvider.error ?? 'Verification failed'),
@@ -77,12 +83,12 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
+        title: const Text('Login'),
       ),
       body: Consumer<AuthProvider>(
         builder: (context, auth, child) {
           return SingleChildScrollView(
-            padding: EdgeInsets.all(24),
+            padding: const EdgeInsets.all(24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
@@ -92,18 +98,18 @@ class _LoginScreenState extends State<LoginScreen> {
                   size: 80,
                   color: Theme.of(context).primaryColor,
                 ),
-                SizedBox(height: 16),
-                Text(
+                const SizedBox(height: 16),
+                const Text(
                   'MND Bus Router',
                   style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
-                Text(
+                const Text(
                   'Sign in to save your favorite routes',
                   style: TextStyle(color: Colors.grey),
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(height: 48),
+                const SizedBox(height: 48),
 
                 // Email Input
                 TextField(
@@ -112,27 +118,27 @@ class _LoginScreenState extends State<LoginScreen> {
                   decoration: InputDecoration(
                     labelText: 'Email Address',
                     hintText: 'student@university.edu',
-                    prefixIcon: Icon(Icons.email),
+                    prefixIcon: const Icon(Icons.email),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
                   enabled: !_linkSent,
                 ),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
 
                 // Send Link Button
                 if (!_linkSent) ...[
                   ElevatedButton(
                     onPressed: auth.isLoading ? null : _sendMagicLink,
                     style: ElevatedButton.styleFrom(
-                      padding: EdgeInsets.symmetric(vertical: 16),
+                      padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
                     child: auth.isLoading
-                        ? SizedBox(
+                        ? const SizedBox(
                             height: 20,
                             width: 20,
                             child: CircularProgressIndicator(
@@ -140,65 +146,65 @@ class _LoginScreenState extends State<LoginScreen> {
                               color: Colors.white,
                             ),
                           )
-                        : Text('Send Magic Link', style: TextStyle(fontSize: 16)),
+                        : const Text('Send Magic Link', style: TextStyle(fontSize: 16)),
                   ),
                 ],
 
                 // Token Input (after link sent)
                 if (_linkSent) ...[
                   Container(
-                    padding: EdgeInsets.all(16),
+                    padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       color: Colors.green.withOpacity(0.1),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Column(
                       children: [
-                        Icon(Icons.check_circle, color: Colors.green, size: 40),
-                        SizedBox(height: 8),
-                        Text(
+                        const Icon(Icons.check_circle, color: Colors.green, size: 40),
+                        const SizedBox(height: 8),
+                        const Text(
                           'Check your email!',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         Text(
                           'We sent a login link to ${_emailController.text}',
                           textAlign: TextAlign.center,
-                          style: TextStyle(color: Colors.grey),
+                          style: const TextStyle(color: Colors.grey),
                         ),
                       ],
                     ),
                   ),
-                  SizedBox(height: 24),
+                  const SizedBox(height: 24),
                   
-                  Text(
+                  const Text(
                     'Or paste your token manually:',
                     style: TextStyle(color: Colors.grey),
                   ),
-                  SizedBox(height: 8),
+                  const SizedBox(height: 8),
                   
                   TextField(
                     controller: _tokenController,
                     decoration: InputDecoration(
                       labelText: 'Token',
                       hintText: 'Paste token from email',
-                      prefixIcon: Icon(Icons.key),
+                      prefixIcon: const Icon(Icons.key),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
                   ),
-                  SizedBox(height: 16),
+                  const SizedBox(height: 16),
                   
                   ElevatedButton(
                     onPressed: auth.isLoading ? null : _verifyToken,
                     style: ElevatedButton.styleFrom(
-                      padding: EdgeInsets.symmetric(vertical: 16),
+                      padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
                     child: auth.isLoading
-                        ? SizedBox(
+                        ? const SizedBox(
                             height: 20,
                             width: 20,
                             child: CircularProgressIndicator(
@@ -206,22 +212,22 @@ class _LoginScreenState extends State<LoginScreen> {
                               color: Colors.white,
                             ),
                           )
-                        : Text('Verify & Login', style: TextStyle(fontSize: 16)),
+                        : const Text('Verify & Login', style: TextStyle(fontSize: 16)),
                   ),
-                  SizedBox(height: 16),
+                  const SizedBox(height: 16),
                   
                   TextButton(
                     onPressed: () => setState(() => _linkSent = false),
-                    child: Text('Use a different email'),
+                    child: const Text('Use a different email'),
                   ),
                 ],
 
-                SizedBox(height: 24),
+                const SizedBox(height: 24),
                 
                 // Skip Button
                 TextButton(
                   onPressed: () => Navigator.of(context).pop(),
-                  child: Text('Skip for now'),
+                  child: const Text('Skip for now'),
                 ),
               ],
             ),

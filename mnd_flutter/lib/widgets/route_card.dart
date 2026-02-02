@@ -3,8 +3,12 @@ import '../models/route_option.dart';
 
 class RouteCard extends StatelessWidget {
   final RouteOption route;
+  final VoidCallback? onFavorite;
 
-  const RouteCard({required this.route});
+  const RouteCard({
+    required this.route,
+    this.onFavorite,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -20,13 +24,20 @@ class RouteCard extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  route.label,
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
+                Expanded(
+                  child: Text(
+                    route.label,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
+                if (onFavorite != null)
+                  IconButton(
+                    icon: Icon(Icons.favorite_border),
+                    onPressed: onFavorite,
+                  ),
                 Container(
                   padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(
