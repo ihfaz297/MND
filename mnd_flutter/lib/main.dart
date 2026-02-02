@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:mnd_flutter/screens/buses/upcoming_buses_screen.dart';
 import 'package:mnd_flutter/screens/favorites/favorites_screen.dart';
 import 'package:mnd_flutter/screens/home/home_screen.dart';
@@ -11,6 +12,9 @@ import 'providers/auth_provider.dart';
 void main() async {
   // First, ensure that the Flutter binding is initialized.
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Load environment variables from .env file
+  await dotenv.load(fileName: ".env");
 
   // Then, initialize your AuthProvider. This is an async operation,
   // so we need to `await` it before running the app.

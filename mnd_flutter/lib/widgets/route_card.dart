@@ -1,14 +1,24 @@
 import 'package:flutter/material.dart';
 import '../models/route_option.dart';
+import '../screens/route_map/route_map_screen.dart';
 
 class RouteCard extends StatelessWidget {
   final RouteOption route;
   final VoidCallback? onFavorite;
 
   const RouteCard({
+    super.key,
     required this.route,
     this.onFavorite,
   });
+
+  void _openRouteMap(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => RouteMapScreen(routeOption: route),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,6 +42,12 @@ class RouteCard extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                ),
+                // Map button
+                IconButton(
+                  icon: Icon(Icons.map_outlined, color: Colors.blue),
+                  tooltip: 'View on Map',
+                  onPressed: () => _openRouteMap(context),
                 ),
                 if (onFavorite != null)
                   IconButton(

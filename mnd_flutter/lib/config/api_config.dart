@@ -1,3 +1,5 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class ApiConfig {
   // Using the special IP for Android Emulator to connect to the host machine.
   // static const String baseUrl = 'http://10.0.2.2:3000/api';
@@ -9,4 +11,7 @@ class ApiConfig {
   // static const String baseUrl = 'http://localhost:3000/api';
   
   static const Duration timeout = Duration(seconds: 30);
+  
+  // Google Maps API Key - loaded from .env file
+  static String get googleMapsApiKey => dotenv.env['GOOGLE_DM_API_KEY'] ?? '';
 }
